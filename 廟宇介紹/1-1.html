@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <title>武廟歷史</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="./css/1-1.css" >
+  
+  <style>
+  .bg{
+	  background-position: center;
+	  background-repeat:no-repeat;
+	  background-size:cover;
+	  max-height:400px;
+  }
+  @media (max-width: 767.98px) {body{font-size:12pt;}}
+  @media (max-width: 768px) and (max-width: 1199.98px){body{font-size:14pt;}}
+  @media (max-width: 1200px) {body{font-size:16pt;}}
+  .logoimg{
+	  max-height:90px;
+  }
+  body{
+      background-image: url(./img/00.png);
+      background-repeat:repeat-x;
+      background-size: 100%;
+	    background-attachment: fixed;
+  }
+  </style>
+  
+</head>
+    
+<body>
+<!-----------------------------------輪播圖-----------------------------------> 
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="4" class="active"></li>
+  </ol>
+  
+  <div class="carousel-inner">
+  
+    <div class="carousel-item active" data-interval="1000">
+      <img class="d-block mx-auto" src="./img/台 灣 祀 典 武 廟.png" alt="First slide">
+      <!--<div class="carousel-caption d-none d-md-block">
+      <h5>aaaaaaaaaaaaaa</h5>
+      <p>標題1</p>-->
+      </div>
+	
+    <div class="carousel-item" data-interval="500">
+      <img class="d-block w-100 bg" src="./img/2.jpeg" alt="Second slide">
+    </div>
+	
+    <div class="carousel-item" data-interval="500">
+      <img class="d-block w-100 bg" src="./img/3.jpg" alt="Third slide">
+    </div>
+    
+    <div class="carousel-item" data-interval="500">
+      <img class="d-block w-100 bg" src="./img/4.jfif" alt="Third slide">
+    </div>
+    
+    <div class="carousel-item" data-interval="500">
+      <img class="d-block w-100 bg" src="./img/5.jpg" alt="Third slide">
+    </div>
+	
+  </div>
+  
+  
+  
+</div> 
+<!-----------------------------------導覽列----------------------------------->
+<!-- 導覽列開始 -->
+<nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top" >  
+  
+  <a class="navbar-brand" href="index.html"><img class="logoimg" src="./img/logo.png" style="padding-right:10px;" alt=""></a><!-- Logo 放置處 -->
+    
+  <!-- 就是當畫面縮小時，摺疊起來的按鈕圖示 -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mylink">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- 會被摺疊起來的各個超連結 -->
+  <div class="collapse navbar-collapse" id="mylink">
+  <ul class="navbar-nav">
+      
+    <li class="nav-item">
+      <a class="nav-link" href="./index.html">首頁</a>
+    </li>
+      
+    <li class="nav-item dropdown">  <!-- 下拉式選單 -->
+      <a class="nav-link dropdown-toggle" href="#" id="mydrop" data-toggle="dropdown">
+        廟宇介紹
+      </a>
+      <div class="dropdown-menu bg-warning shadow-lg"> <!-- 下拉式選單的子選單 -->
+        <a class="dropdown-item" href="./1-1.html">武廟歷史</a>
+        <a class="dropdown-item" href="./1-2map.html">武廟位置</a>
+        <a class="dropdown-item" href="./1-3.html">參拜順序</a>
+        <a class="dropdown-item" href="./1-4.html">交通方式</a>
+      </div>
+    </li>
+      
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="mydrop2" data-toggle="dropdown">
+        神明介紹
+      </a>
+      <div class="dropdown-menu bg-warning shadow-lg">
+        <a class="dropdown-item" href="./2-1.html">關聖帝君</a>
+        <a class="dropdown-item" href="./2-2.html">關平太子</a>
+        <a class="dropdown-item" href="./2-3.html">三官大帝</a>
+        <a class="dropdown-item" href="./2-4.html">觀世音菩薩</a>
+        <a class="dropdown-item" href="./2-5.html">福德正神</a>
+        <a class="dropdown-item" href="./2-6.html">註生娘娘</a>
+        <a class="dropdown-item" href="./2-7.html">十八羅漢尊者</a>
+        <a class="dropdown-item" href="./2-8.html">月老尊者</a>
+        <a class="dropdown-item" href="./2-9.html">斗姆元君</a>
+        <a class="dropdown-item" href="./2-10.html">太歲星君</a>
+        <a class="dropdown-item" href="./2-11.html">火德星君</a>
+        <a class="dropdown-item" href="./2-12.html">王天君</a>
+        <a class="dropdown-item" href="./2-13.html">張仙大帝</a>
+        <a class="dropdown-item" href="./2-14.html">文昌帝君</a>
+        <a class="dropdown-item" href="./2-15.html">馬使爺</a>
+        <a class="dropdown-item" href="./2-16.html">周倉將軍</a>
+      </div>
+    </li>
+      
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="mydrop2" data-toggle="dropdown">
+        附近廟宇
+      </a>
+      <div class="dropdown-menu bg-warning shadow-lg">
+        <a class="dropdown-item" href="./3-1.html">臺南祀典大天后宮</a>
+        <a class="dropdown-item" href="./3-2.html">開基武廟原正殿</a>
+      </div>
+    </li>
+      
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="mydrop2" data-toggle="dropdown">
+        附近景點
+      </a>
+      <div class="dropdown-menu bg-warning shadow-lg">
+        <a class="dropdown-item" href="./4-1.html">武廟肉圓</a>
+        <a class="dropdown-item" href="./4-2.html">赤崁樓</a>
+      </div>
+    </li>
+      
+  </ul>
+  </div>
+    
+  <a class="navbar-brand" href="https://zh-tw.facebook.com/GuanSanemperor/" target="_blank"><img class="logoimg rounded" src="./img/fb.jfif" style="padding-right:1px;max-height: 50px" alt=""></a><!-- Logo 放置處 -->
+    
+  <!-- 就是當畫面縮小時，摺疊起來的按鈕圖示 -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mylink">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+</nav>  
+<!-- 導覽列結束 -->
+<!-------------------------------------card--------------------------------->
+<section>
+    <div class="container p-3 my-3 bg-light text-dark">
+      <h1 style="text-align: center;">武廟歷史</h1>
+      <p>臺灣祀典武廟，俗稱「大關帝廟」或「武廟」，是臺灣唯一晉升朝廷祀典的武廟，其建廟歷史可溯明鄭時期。</p><br>
+      <p>臺灣祀典武廟始建於明永曆十九年（西元1665年），鄭經與陳永華於承天府署（今赤崁樓）之南，建寧靖王府（今祀典大天后宮）、又於寧靖王府邸後方的一元子園內建關帝廳和佛祖聽，此關帝廳即為祀典武廟的前身。</p><br>
+      <p>清康熙二十九年（西元1690年）臺廈道王效宗整修「關帝廳」，將廟門改為南向，設正殿，新塑「關聖帝君」作為「鎮殿大關帝」，左右塑「關平太子」與「周倉將軍」立像，正殿之前建再拜殿，左右廡廊、初拜殿及三川門，三川門前為石埕，此即為當今祀典武廟之格局。<br></p>
+      <p>雍正五年，奉旨祀以《太牢》之祭儀，由清朝官方主持春、秋二祭，也是全台唯一晉升祀典的武廟、故稱為「祀典武廟」。</p><br>
+      <button type="button" class="btn btn-dark text-white" data-toggle="collapse" data-target="#demo">更多內容</button><br>
+      <div id="demo" class="collapse"><br>
+      <p>廟中主祀的關聖帝君原奉祀於寧靖王朱術桂的家廟，毗鄰當時的行政中心—承天府（今赤崁樓）。</p><br>
+      <p>三百年來關帝爺靈驗盛名愈開、香火鼎盛，並因豐富的典藏文物、雄偉的建築格局及悠久的歷史，名列「國定一級古蹟」，美食旅遊評鑑『米其林指南』列為三星級景點。</p><br>
+      <p>關帝爺的由來，藉由對照明家靖《荊州府志》及清乾隆《江陵縣志》的圖示，清晰可見「長陽王府」封地旁之土城垣，即為關公鎮守荊州時，靜讀「春秋」之處，亦是每逢得勝歸來，寬卸鎧甲犒賞將士的慶功之地，故得名「卸甲山」。後人即於此地興建關羽祠以示紀念，並成為當地信仰中心。</p><br>
+      <p>至於關帝爺何以輾轉至臺，則可追溯至明末，緣寧靖王朱術桂成長於荊州城卸甲山下之長陽府，其家祠即祀奉關帝爺，後因荊州城遭李自成叛軍戰火波及而淪陷，朱術桂出奔南京之際，亦奉請卸甲山關羽祠的關聖帝君神尊，一同遠避荊州戰亂，遷至金門、廈門沿海短暫停留。至明永曆十七年（公元一六六三年），鄭經迎請明寧靖王到臺灣，擁立明朝餘脈於承天府署旁的西定坊，建立寧靖王府邸（今祀典大天后宮）安置，並提供歲祿。</p><br>
+      <p>明永曆十九年（公元一六六五年）鄭經與陳永華君臣積極設置全臺首學（即當時的文廟），而武廟則就近奉祀寧靖王虔誠守護的關帝神尊。官府分別設置文、武廟的格局，於後續清廷治臺時期更清晰可見。當時鄭經出資興修四大廟聽，其中關帝廳和佛祖廳設置於承天府署之南，這個位置即是寧靖王府邸後方的「一元子園」，亦是祀典武廟的前身。</p><br>
+      <p>一元子園是寧靖王祭祀的家廟所在，園內共有三個祭祀空間。其中一間為單進建築的「關帝廳」（坐南朝北—與現今的方位相反），供奉著朱術桂自家鄉荊州奉請來臺的關聖帝君，即現今軟身金尊的「二關帝」神像。</p><br>
+      <p>另兩間分別為供奉玄天上帝的「上帝廳」（坐北朝南，即現今的三代廳）及供奉觀世音菩薩的「佛祖廳」，同時在「佛祖廳」旁開一扇通往府外的小門，提供來台的明室宗戚參拜，此即武廟最初的奉祀格局。隨著時代更迭，觀世音菩薩像則被後人奉為祝生娘娘續享香火至今。</p><br>
+      <p>清康熙二十九年（公元一六九Ｏ年），巡道王效宗整修「關帝廳」，將廟門改為南向，設正殿，新塑「鎮殿大關帝」神像，左右陪祀「關平太子」與「周倉將軍」立像，正殿之前則依序設有再拜殿、左右廡廊、初拜殿、三川門及石埕，此為現今祀典武廟的初始格局。</p><br>
+      <p>雍正五年（公元一七二七年），奉旨由清廷官方主持春秋二祭，祀以《太牢》祭儀。此後名列祀典，也是全台唯一列為官方《祀典》殊榮的武廟。</p><br>
+      <img class="d-block w-100 bg" src="./img/2.jpeg" alt="Second slide">
+      </div>
+       
+    </div>
+</section>
+<!-------------------------------------頁尾--------------------------------->    
+<footer class="container-fluid bg-dark text-light" style="padding: 20px 0 0 0;font-size:12px">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-4  align-middle my-auto">
+          <h5>聯絡資訊</h5>
+      <p> 
+          電話:<a href="tel:+886-6-2294401" target="_blank" style="color: cornflowerblue;">06-229-4401</a><br><br>
+      地址:<a href="https://www.google.com.tw/maps/place/%E8%87%BA%E7%81%A3%E7%A5%80%E5%85%B8%E6%AD%A6%E5%BB%9F/@22.996282,120.2020635,19.5z/data=!4m5!3m4!1s0x0:0xada16ec5d753a326!8m2!3d22.99664!4d120.202248?hl=zh-TW" target="_blank" style=" color: cornflowerblue">700 台南市中西區永福路二段229號 </a><br>
+          </p>
+          </div>
+          <div class="col-lg-4  align-middle my-auto">
+          <h5>資料來源</h5>
+          <p> 
+            台灣祀典武廟官網:<a href="tel:+886-6-2294401" target="_blank" style="color: cornflowerblue;">台灣祀典武廟</a><br><br>
+            維基百科<br>
+            </p>
+      <p> 
+      </p>
+          </div>
+      </div>
+  </div>       
+  </footer>
+  <div style="text-align: center;">
+      <p1>作者:崑山資工系 陳昱璋</p1><br>
+      <p1>本網站所有資料為作業使用</p1><br>
+      <p1>如有版權問題，請郵件聯繫作者</p1><br>
+      <p1>作者郵件:<a href="mailto:0719eugeng@gmail.com">0719eugeng@gmail.com</a></p1><br>
+  </div>
+  </body>
+  </html>
